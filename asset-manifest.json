@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portifolioreactjs/static/css/main.52589dcf.css",
-    "main.js": "/portifolioreactjs/static/js/main.a346e1fb.js",
+    "main.js": "/portifolioreactjs/static/js/main.b0565918.js",
     "static/js/787.81ce9db2.chunk.js": "/portifolioreactjs/static/js/787.81ce9db2.chunk.js",
     "static/media/21004063-removebg.png": "/portifolioreactjs/static/media/21004063-removebg.11e671cf96ace9abf319.png",
     "static/media/bnn.jpg": "/portifolioreactjs/static/media/bnn.faacd21e231a2b68fbca.jpg",
@@ -11,11 +11,11 @@
     "static/media/minhaft.jpeg": "/portifolioreactjs/static/media/minhaft.ae43f7a955fb63037728.jpeg",
     "index.html": "/portifolioreactjs/index.html",
     "main.52589dcf.css.map": "/portifolioreactjs/static/css/main.52589dcf.css.map",
-    "main.a346e1fb.js.map": "/portifolioreactjs/static/js/main.a346e1fb.js.map",
+    "main.b0565918.js.map": "/portifolioreactjs/static/js/main.b0565918.js.map",
     "787.81ce9db2.chunk.js.map": "/portifolioreactjs/static/js/787.81ce9db2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.52589dcf.css",
-    "static/js/main.a346e1fb.js"
+    "static/js/main.b0565918.js"
   ]
 }
