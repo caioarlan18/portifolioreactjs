@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;200;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600&family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+}
+.projetos {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.projetos h1 {
+  font-family: montserrat;
+  color: #c4c4c4;
+  font-weight: bold;
+  text-align: center;
+  width: 80%;
+  font-size: 20px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.projetos img {
+  width: 80%;
+  display: flex;
+  border-left: solid 7px aquamarine;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.projetos img:hover {
+  border-left: 5px solid aqua;
+  transition: 0.3s;
+}
+
+.projetos img:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+
+.projetos h2 {
+  font-family: montserrat;
+  color: #c4c4c4;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-size: 15px;
+  font-weight: 400;
+  width: 90%;
+}
+
+.projetos button {
+  background-color: transparent;
+  color: white;
+  border: 3px solid aquamarine;
+  border-radius: 10px;
+  font-family: montserrat;
+  width: 160px;
+  font-weight: 600;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 30px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.projetos button:hover {
+  background-color: #272727;
+  transition: 0.4s;
+}
+
+.projetos p {
+  font-family: montserrat;
+  color: aquamarine;
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+  width: 90%;
+  font-size: 15px;
+}

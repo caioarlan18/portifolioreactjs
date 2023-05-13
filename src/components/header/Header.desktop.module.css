@@ -1,0 +1,65 @@
+@media screen and (min-width: 992px) and (max-width: 4000px) {
+  @import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;200;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600&family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500&display=swap");
+  .itens1 {
+    display: block;
+  }
+
+  .itens1 ul {
+    list-style: none;
+    font-family: montserrat;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 600;
+    display: flex;
+    margin-right: 50px;
+    align-items: center;
+  }
+  .itens1 a {
+    text-decoration: none;
+    color: white;
+  }
+  .itens1 li:hover {
+    color: aquamarine;
+    transition: 0.4s;
+  }
+
+  .itens1 li {
+    margin-left: 40px;
+  }
+  .icon {
+    display: none;
+  }
+  .modo {
+    margin-left: 10px;
+    border: 3px aquamarine solid;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .logo img {
+    position: relative;
+    left: 15px;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+
+  .logo img:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  .hd1 {
+    display: flex;
+  }
+  .itens {
+    display: none;
+  }
+}
+@media screen and (min-width: 264px) and (max-width: 392px) {
+  .icon {
+    position: relative;
+    right: 15px;
+  }
+}

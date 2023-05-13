@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;200;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600&family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500&display=swap");
+
+.exp {
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+  align-items: center;
+}
+
+.exp h1 {
+  color: #c4c4c4;
+  font-family: montserrat;
+  margin-top: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.exp p {
+  color: white;
+  font-family: montserrat;
+  text-align: center;
+  color: #c4c4c4;
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 27px;
+}

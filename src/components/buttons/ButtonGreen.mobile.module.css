@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;200;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600&family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500&display=swap");
+* {
+  margin: 0 auto;
+}
+.btt {
+  height: 50px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  font-family: montserrat;
+  border: 2px solid aquamarine;
+  border-radius: 10px;
+  width: 160px;
+  font-weight: 600;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.btt:hover {
+  background-color: #272727;
+  transition: 0.4s;
+}
+.button {
+  text-align: center;
+  margin-top: 40px;
+}

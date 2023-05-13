@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;200;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600&family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500&display=swap");
+
+.segunda h1 {
+  color: #c4c4c4;
+  font-family: montserrat;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.front {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.ola {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+h1.nome::after {
+  content: "|";
+  font-weight: 500;
+  color: white;
+  margin-left: 5px;
+  animation: piscar 0.6s infinite alternate;
+}
+
+@keyframes piscar {
+  0% {
+    opacity: 1;
+  }
+
+  40% {
+    opacity: 1;
+  }
+
+  60% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+h1.nome {
+  color: aquamarine;
+  font-family: montserrat;
+  font-size: 50px;
+}
+
+.segunda {
+  margin-top: 250px;
+  width: 100%;
+  max-width: 1700px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.imgse {
+  display: none;
+}

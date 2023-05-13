@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;200;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600&family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+section {
+  -webkit-tap-highlight-color: transparent;
+}
+div {
+  -webkit-tap-highlight-color: transparent;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #151515;
+  width: 100%;
+}
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: aquamarine;
+  border-radius: 3px;
+}
+@keyframes border-color-animation {
+  0% {
+    border-color: #ff75d9;
+  }
+  25% {
+    border-color: #ff75d9;
+    box-shadow: 0 0 5px #ff75d9;
+  }
+  50% {
+    border-color: #ff75d9;
+  }
+  75% {
+    border-color: #ff75d9;
+    box-shadow: 0 0 5px #ff75d9;
+  }
+  100% {
+    border-color: #ff75d9;
+  }
+}
+
+.github {
+  border: 1px solid transparent;
+  animation: border-color-animation 4s infinite;
+}
+
+@keyframes border-color-animation2 {
+  0% {
+    border-color: #0077b5;
+  }
+  25% {
+    border-color: #0077b5;
+    box-shadow: 0 0 5px #0077b5;
+  }
+  50% {
+    border-color: #0077b5;
+  }
+  75% {
+    border-color: #0077b5;
+    box-shadow: 0 0 5px #0077b5;
+  }
+  100% {
+    border-color: #0077b5;
+  }
+}
+
+.linkedin {
+  animation: border-color-animation2 4s infinite;
+}
+
+.fim h1 {
+  color: white;
+  font-family: montserrat;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-size: 20px;
+  margin-bottom: 50px;
+  font-weight: 500;
+  text-align: center;
+}
+.fim {
+  display: flex;
+}
+
+.fim span {
+  color: aquamarine;
+}
+
+@media screen and (min-width: 992px) and (max-width: 4000px) {
+  .fim {
+    margin-top: 150px;
+  }
+}

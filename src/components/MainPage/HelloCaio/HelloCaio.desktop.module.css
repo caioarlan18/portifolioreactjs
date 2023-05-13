@@ -1,0 +1,97 @@
+@media screen and (min-width: 992px) and (max-width: 4000px) {
+  @import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;200;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600&family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500&display=swap");
+
+  .eumsm {
+    display: none;
+  }
+
+  .eumsm1 {
+    display: flex;
+    max-width: 1700px;
+    justify-content: center;
+    margin-left: 150px;
+  }
+
+  .euft1 img {
+    height: 400px;
+    width: 400px;
+    border-left: 5px solid aquamarine;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-right: 60px;
+    border-left: 5px solid aquamarine;
+  }
+
+  .eumsm1 h1 {
+    color: #c4c4c4;
+    font-family: montserrat;
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  .eumsm1 p {
+    font-weight: 300;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 20px;
+    width: 100%;
+    font-family: montserrat;
+    color: #c4c4c4;
+    line-height: 27px;
+  }
+
+  .eumsm1 h2 {
+    font-size: 17px;
+    margin-top: 20px;
+    color: #c4c4c4;
+    font-family: montserrat;
+  }
+  .eumsm1 button {
+    width: 190px;
+    background-color: transparent;
+    color: white;
+    border: 3px solid aquamarine;
+    margin-top: 30px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: montserrat;
+    font-weight: 600;
+    font-size: 17px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    animation: border-color-animation3 4s infinite;
+  }
+  @keyframes border-color-animation3 {
+    0% {
+      border-color: #25d366;
+    }
+    25% {
+      border-color: #25d366;
+      box-shadow: 0 0 5px #25d366;
+    }
+    50% {
+      border-color: #25d366;
+    }
+    75% {
+      border-color: #25d366;
+      box-shadow: 0 0 5px #25d366;
+    }
+    100% {
+      border-color: #25d366;
+    }
+  }
+
+  .eumsm1 button:hover {
+    background-color: #272727;
+    transition: 0.4s;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1132px) {
+  .euft-1 img {
+    width: 280px;
+    height: 300px;
+    position: relative;
+    top: 70px;
+  }
+}

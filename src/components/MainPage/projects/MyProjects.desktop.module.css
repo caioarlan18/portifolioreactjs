@@ -1,0 +1,28 @@
+@media screen and (min-width: 992px) and (max-width: 4000px) {
+  @import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;200;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600&family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500&display=swap");
+  * {
+    margin: 0 auto;
+  }
+  .tdsp {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .projetos {
+    width: 40%;
+    display: flex;
+    height: 100vh;
+  }
+
+  .projetos h1,
+  .projetos h2 {
+    width: 90%;
+    text-align: center;
+  }
+  .projetos img {
+  }
+
+  .pmob {
+    display: none;
+  }
+}

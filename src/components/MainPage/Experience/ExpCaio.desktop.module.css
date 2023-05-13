@@ -1,0 +1,11 @@
+@media screen and (min-width: 992px) and (max-width: 4000px) {
+  @import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;200;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600&family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500&display=swap");
+  .exp h1 {
+    font-size: 40px;
+  }
+
+  .exp p {
+    width: 510px;
+    font-size: 20px;
+  }
+}

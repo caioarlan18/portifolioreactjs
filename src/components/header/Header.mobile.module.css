@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;200;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600&family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500&display=swap");
+body {
+  transition: 0.5s;
+}
+.hd1 {
+  height: 85px;
+  border-bottom: 2px solid #272727;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  background-color: #151515;
+  top: 0;
+  z-index: 1;
+  transition: 0.5s;
+}
+.logo img {
+  margin-top: 25px;
+  cursor: pointer;
+  position: relative;
+  right: 70px;
+}
+.itens1 {
+  display: none;
+}
+
+.icon {
+  width: 23px;
+  border-top: 2px solid;
+  color: aquamarine;
+  display: block;
+  cursor: pointer;
+}
+.englob {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.icon::after,
+.icon::before {
+  content: "";
+  display: block;
+  width: 23px;
+  height: 2px;
+  background: currentColor;
+  margin-top: 5px;
+  transition: 0.3s;
+  position: relative;
+}
+.itens.active .icon {
+  border-top-color: transparent;
+}
+.itens.active .icon::before {
+  transform: rotate(135deg);
+}
+.itens.active .icon::after {
+  transform: rotate(-135deg);
+  top: -7px;
+}
+
+.itens {
+  background-color: black;
+  width: 0;
+  position: fixed;
+  height: 100%;
+  z-index: 1;
+  top: 87px;
+  overflow-y: hidden;
+  transition: 0.5s;
+  left: 0;
+}
+.itens ul {
+  list-style: none;
+  font-family: montserrat;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  overflow: hidden;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+.active {
+  width: 60%;
+  transition: 0.5s;
+  overflow-y: visible;
+}
+.ativo.icon {
+  border-top-color: transparent;
+}
+.ativo.icon::before {
+  transform: rotate(135deg);
+}
+.ativo.icon::after {
+  transform: rotate(-135deg);
+  top: -7px;
+}
+.itens a span {
+  margin-left: 10px;
+}
+
+.itens a {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.itens span:hover {
+  color: aquamarine;
+  transition: 0.4s;
+}
+
+.itens span {
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.modo {
+  margin-left: 50px;
+  border: 3px aquamarine solid;
+  padding: 10px;
+  border-radius: 10px;
+}
+.mudar {
+  background-color: rgb(37, 37, 37);
+  transition: 0.5s;
+}
