@@ -31,7 +31,7 @@ function Main() {
         <div className={`${stylesMobile.segunda} ${stylesDesktop.segunda}`} id='home'>
             <div className={`${stylesMobile.ladoalado} ${stylesDesktop.ladoalado}`}>
                 <h1 className={`${stylesMobile.ola} ${stylesDesktop.ola}`}>Olá, eu sou</h1>
-                <h1 className={`${stylesMobile.nome} ${stylesDesktop.nome}`} id='EscreverNome' onClick={escrever}>Caio Arlan</h1>
+                <h1 className={`${stylesMobile.nome} ${stylesDesktop.nome}`} id='EscreverNome' >Caio Arlan</h1>
                 <h1 className={`${stylesMobile.front} ${stylesDesktop.front}`}>Front-end dev</h1>
                 <div className={`${stylesMobile.button} ${stylesDesktop.button}`}>
                     <ButtonGreen className={stylesMobile.btt} name='Linkedin' link={'https://www.linkedin.com/in/caio-arlan-b17b5124b/'} icone={<FontAwesomeIcon icon={faLinkedin} />} borda='linkedin' />
