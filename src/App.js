@@ -19,7 +19,8 @@ function App() {
       <HelloCaio />
       <ExpCaio />
       <section className={stylesDesktop.tdsp}>
-        <MyProjects ProjectLink='https://casualhome.com.br' ProjectImage={CasualHomeImage} ProjectAlt='imagem do projeto Loja51 Shirts' ProjectName={'Casual Home'} Info='uma plataforma inovadora para produtos domésticos e soluções relacionadas. Através de uma cuidadosa seleção de itens práticos e de qualidade, buscamos facilitar o dia a dia das pessoas. Conheça mais sobre esse projeto que foi feito para ser usado em uma situação real' Tech='Tecnologias usadas no projeto: ReactJs' intro='PROJETOS' />
+        <MyProjects
+          ProjectLink='https://casualhome.com.br' ProjectImage={CasualHomeImage} ProjectAlt='imagem do projeto Loja51 Shirts' ProjectName={'Casual Home'} Info='uma plataforma inovadora para produtos domésticos e soluções relacionadas. Através de uma cuidadosa seleção de itens práticos e de qualidade, buscamos facilitar o dia a dia das pessoas. Conheça mais sobre esse projeto que foi feito para ser usado em uma situação real' Tech='Tecnologias usadas no projeto: ReactJs, Firebase, Local Storage' intro='PROJETOS' />
         <MyProjects ProjectLink='https://tm.rankingcostadosol.com.br' ProjectImage={Rcstm} ProjectAlt='imagem do projeto Ranking Costa do Sol' ProjectName={'Ranking Tênis de Mesa - Costa do Sol'}
           Info='Projeto FullStack de um site que será usado em campeonatos esportivos. Os jogadores poderão ver sua
                     pontuação em cada etapa
@@ -33,8 +34,8 @@ function App() {
                     (Por enquanto a função do organizador não está disponível para usuários externos, pois o site está
                     sendo em uma situação real, em breve terá uma versão aberto para todos. OBS: Por enquanto o site só
                     possui uma versão mobile, se estiver no pc, minimize a página para conseguir ver )' Tech='Tecnologias usadas no projeto: HTML, CSS, JS e FireBase' />
-        <MyProjects ProjectLink='caioarlan18.github.io/landingpage2.0/' ProjectImage={Landing} ProjectAlt='imagem do projeto landing page' ProjectName={'Landing Page - Casual Home'} Info='Projeto de uma landing page para a loja Casual Home'
-          Tech='Tecnologias usadas no projeto: HTML e CSS' />
+        <MyProjects ProjectLink='https://caioarlan18.github.io/landingpage2.0/' ProjectImage={Landing} ProjectAlt='imagem do projeto landing page' ProjectName={'Landing Page - Casual Home'} Info='Projeto de uma landing page para a loja Casual Home'
+          Tech='Tecnologias usadas no projeto: ReactJS' />
         <MyProjects ProjectLink='https://caioarlan18.github.io/Loja51/' ProjectImage={Loja51Image} ProjectAlt='imagem do projeto Loja51 Shirts' ProjectName={'Loja51 Shirts'} Info='Projeto fictício de uma loja de camisas de time usando HTML e css, foi usado um pouco de JavaScript, Site 100% 
       responsivo' Tech='Tecnologias usadas no projeto: HTML, CSS e JavaScrpit' />
       </section>
