@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portifolioreactjs/static/css/main.52589dcf.css",
-    "main.js": "/portifolioreactjs/static/js/main.90b6e963.js",
+    "main.css": "/portifolioreactjs/static/css/main.5d4d8d69.css",
+    "main.js": "/portifolioreactjs/static/js/main.f95129f1.js",
     "static/js/787.81ce9db2.chunk.js": "/portifolioreactjs/static/js/787.81ce9db2.chunk.js",
     "static/media/21004063-removebg.png": "/portifolioreactjs/static/media/21004063-removebg.11e671cf96ace9abf319.png",
     "static/media/bnn.jpg": "/portifolioreactjs/static/media/bnn.faacd21e231a2b68fbca.jpg",
     "static/media/tm-ft.jpg": "/portifolioreactjs/static/media/tm-ft.60098d92829e9db4be53.jpg",
+    "static/media/ft casualhome.png": "/portifolioreactjs/static/media/ft casualhome.13e0c54ab8353445f5ef.png",
     "static/media/loja51.jpeg": "/portifolioreactjs/static/media/loja51.6dfec0cd816827c7262a.jpeg",
     "static/media/Sem-Título-1.jpg": "/portifolioreactjs/static/media/Sem-Título-1.81964baba388b1cbe62e.jpg",
     "static/media/minhaft.jpeg": "/portifolioreactjs/static/media/minhaft.ae43f7a955fb63037728.jpeg",
-    "static/media/WhatsApp Image 2023-06-18 at 23.04.55.jpeg": "/portifolioreactjs/static/media/WhatsApp Image 2023-06-18 at 23.04.55.33e789db03dbd4180a7c.jpeg",
     "index.html": "/portifolioreactjs/index.html",
-    "main.52589dcf.css.map": "/portifolioreactjs/static/css/main.52589dcf.css.map",
-    "main.90b6e963.js.map": "/portifolioreactjs/static/js/main.90b6e963.js.map",
+    "main.5d4d8d69.css.map": "/portifolioreactjs/static/css/main.5d4d8d69.css.map",
+    "main.f95129f1.js.map": "/portifolioreactjs/static/js/main.f95129f1.js.map",
     "787.81ce9db2.chunk.js.map": "/portifolioreactjs/static/js/787.81ce9db2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.52589dcf.css",
-    "static/js/main.90b6e963.js"
+    "static/css/main.5d4d8d69.css",
+    "static/js/main.f95129f1.js"
   ]
 }
